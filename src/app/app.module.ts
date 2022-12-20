@@ -16,6 +16,7 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { MahasiswaComponent } from './mahasiswa/mahasiswa.component';
 import { HttpClientModule } from "@angular/common/http";
+import { ForexComponent } from './forex/forex.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { HttpClientModule } from "@angular/common/http";
     ContentComponent,
     FooterComponent,
     Dashboard2Component,
-    MahasiswaComponent
+    MahasiswaComponent,
+    ForexComponent
   ],
   imports: [
     BrowserModule,

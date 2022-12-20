@@ -73,10 +73,10 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="/mahasiswa" class="nav-link">
-              <i class="nav-icon fas fa-th"></i>
+            <a [routerLink]="['/forex']" routerLinkActive="router-link-active" class="nav-link {{moduleName == 'forex' ? 'active' : ''}}">
+              <i class="nav-icon far fa-money-bill-alt"></i>
               <p>
-                Mahasiswa (Non-Router)
+                Forex
               </p>
             </a>
           </li>
