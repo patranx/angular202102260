@@ -81,12 +81,10 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-copy"></i>
+            <a [routerLink]="['/cuaca']" routerLink="router-link-active" class="nav-link {{ moduleName == 'cuaca' ? 'active' : '' }}">
+              <i class="nav-icon fas fa-cloud-rain"></i>
               <p>
-                Layout Options
-                <i class="fas fa-angle-left right"></i>
-                <span class="badge badge-info right">6</span>
+                Cuaca
               </p>
             </a>
             <ul class="nav nav-treeview">
