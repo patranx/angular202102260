@@ -39,7 +39,7 @@ export class CuacaComponent implements OnInit, AfterViewInit {
             "targets" : 1,
             "render" : function (data: string)
             {
-              var html = "<img src'" + data + "' />";
+              var html = "<img src='" + data + "' />";
               return html;
             }
           },
